@@ -57,6 +57,7 @@ const TaskManagment = (props) => {
 
     const [model, setModel] = useState({ id: 0, taskName: "", duration: 0, statusid: 1 });
 
+    
     //const [listModel, setListModel] = useState([]);
 
     const [taskState, dispatch] = useReducer(taskReduser, initialState);
